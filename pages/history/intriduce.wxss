@@ -1,0 +1,21 @@
+/* pages/intriduce/intriduce.wxss */
+.history{
+  /* display: flex;
+  flex-direction: column; */
+  height: 100%;
+  overflow-y: auto;
+}
+.historyList{
+  display: flex;
+  align-items: center;
+  padding:20rpx 40rpx;
+}
+.history .imgDesc{
+   width:300rpx;
+   height:300rpx;
+   /* border-radius: 50%; */
+}
+.imgHistoryDesc{
+  font-size: 25rpx;
+  padding-left: 10rpx
+}

@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/history/intriduce",
+    "pages/index/index",
+    "pages/life/life"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#aabdfb",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "坐地日行八万里",
+    "backgroundColor": "#f0c9f7",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color":"#abae59",
+    "selectedColor":"#30b562",
+    "backgroundColor":"#d1d1f6",
+    "borderStyle":"black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "地理",
+        "iconPath": "images/index-icon.png",
+        "selectedIconPath": "images/index-selected.png"
+      },
+      {
+        "pagePath": "pages/history/intriduce",
+        "text": "历史",
+        "iconPath": "images/points-icon.png",
+        "selectedIconPath": "images/points-selected.png"
+      },
+        {
+          "pagePath": "pages/life/life",
+          "text": "生活",
+          "selectedIconPath": "images/teachers-selected.png",
+          "iconPath": "images/teachers-icon.png"
+        }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+<view class='container history'>
+  <view wx:for="{{pathList}}" wx:key="unique" class="historyList">
+    <view>
+        <image class="imgDesc" src='{{item.imgPath}}'></image>
+    </view>
+    <view class="imgHistoryDesc">
+        {{item.desc}}
+    </view>
+</view>
+</view>
